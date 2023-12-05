@@ -11,3 +11,5 @@ Users can add hotels to their favorites list, which is stored in the browser's l
 The website is responsive and can be viewed on desktop and mobile devices. It uses several Vue.js features such as Vue Router for navigation,Local Storage from save the data, and composition API for component logic. The data for the hotels is fetched from the [Hotels API](https://rapidapi.com/apidojo/api/hotels4) using Axios.
 
 Overall, the website provides a simple and intuitive interface for users to search hotels, while showcasing the capabilities of the Vue.js framework.
+
+you can directly open ibdex html file using chrome to see web site
