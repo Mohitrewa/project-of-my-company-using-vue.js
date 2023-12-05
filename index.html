@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#section1">Section 1</a></li>
+          <li><a href="#section2">Section 2</a></li>
+          <li><a href="#section3">Section 3</a></li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 4 <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#section41">Section 4-1</a></li>
+              <li><a href="#section42">Section 4-2</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>    
+
+<div id="section1" class="container-fluid">
+
+
+    <h2>Deluxe Room</h2>
+    <!-- <h1>Section 1</h1> -->
+    <form>
+        <div class="row">
+            <div class="col-25">
+                    <div class="photo">
+                        <img src="Windows_10_Default_Profile_Picture.svg.png" width="40%" href="index.html">
+                    </div>                
+            </div>
+            <div class="col-75">
+                <div class="data">
+                    <input type="text" placeholder="Image logo url">
+                    <input type="text" placeholder="Image logo url">
+                </div>
+                
+            </div>
+        </div>
+		<div class="row">
+			<div class="col-25">
+				<label for="fname">First Name</label>
+			</div>
+			<div class="col-75">
+				<input type="text" id="fname" name="firstname" placeholder="Your first name..">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-25">
+				<label for="lname">Last Name</label>
+			</div>
+			<div class="col-75">
+				<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-25">
+				<label for="country">Country</label>
+			</div>
+			<div class="col-75">
+				<select id="country" name="country">
+					<option value="australia">Australia</option>
+					<option value="canada">Canada</option>
+					<option value="usa">USA</option>
+				</select>
+			</div>
+		</div>
+		<div class="row">
+			<input type="submit" value="Submit">
+		</div>
+	</form>
+    
+</div>
+
+<hr>
+
+<div id="section2">
+
+    <!-- <h1>this is section 2</h1> -->
+
+    <form>
+        <br>
+        <div class="row">
+            <div class="col-25">
+                <label for="address">Address</label>
+            </div>
+            <div class="col-75">
+                <textarea id="address" name="address" rows="4" cols="50"></textarea>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="lname">Landmark:</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="lname" name="lastname" placeholder="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="country">City:</label>
+            </div>
+            <div class="col-75">
+                <select id="country" name="country">
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                </select>
+            </div>
+
+        </div>
+        
+        <div class="row">
+            <div class="col-25">
+                <label for="country">State:</label>
+            </div>
+            <div class="col-75">
+                <select id="country" name="country">
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                </select>
+                <textarea id="address" name="address" rows="4" cols="50"></textarea>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="country">Pincode:</label>
+            </div>
+            <div class="col-75">
+                <select id="country" name="country">
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                </select>
+                <textarea id="address" name="address" rows="4" cols="50"></textarea>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="country">Country:</label>
+            </div>
+            <div class="col-75">
+                <select id="country" name="country">
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                </select>
+                <textarea id="address" name="address" rows="4" cols="50"></textarea>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="country">Country Code:</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="lname" name="lastname" placeholder="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="country">Latitude:</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="lname" name="lastname" placeholder="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="country">Longitude:</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="lname" name="lastname" placeholder="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="country">Email</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="lname" name="lastname" placeholder="">
+            </div>
+        </div>
+
+    
+    </form>
+    
+
+</div>
+
+<hr>
+
+<div id="section41" class="container-fluid">
+    <h2>Deluxe Room</h2>
+<form>
+    <br>
+    <div class="row">
+        <div class="col-25">
+            <label for="address">Address</label>
+        </div>
+        <div class="col-75">
+            <textarea id="address" name="address" rows="4" cols="50"></textarea>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-25">
+            <label for="lname">Landmark:</label>
+        </div>
+        <div class="col-75">
+            <input type="text" id="lname" name="lastname" placeholder="">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-25">
+            <label for="country">City:</label>
+        </div>
+        <div class="col-75">
+            <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+            </select>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-25">
+            <label for="country">State:</label>
+        </div>
+        <div class="col-75">
+            <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+            </select>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-25">
+            <label for="country">Pincode:</label>
+        </div>
+        <div class="col-75">
+            <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+            </select>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-25">
+            <label for="country">Country:</label>
+        </div>
+        <div class="col-75">
+            <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+            </select>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-25">
+            <label for="country">Country Code:</label>
+        </div>
+        <div class="col-75">
+            <input type="text" id="lname" name="lastname" placeholder="">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-25">
+            <label for="country">Latitude:</label>
+        </div>
+        <div class="col-75">
+            <input type="text" id="lname" name="lastname" placeholder="">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-25">
+            <label for="country">Longitude:</label>
+        </div>
+        <div class="col-75">
+            <input type="text" id="lname" name="lastname" placeholder="">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-25">
+            <label for="country">Email</label>
+        </div>
+        <div class="col-75">
+            <input type="text" id="lname" name="lastname" placeholder="">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-25">
+            <label for="country">Contact Number:</label>
+        </div>
+        <div class="col-75">
+            <input type="text" id="lname" name="lastname" placeholder="">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-25">
+            <label for="country">Map URL</label>
+        </div>
+        <div class="col-75">
+            <input type="text" id="lname" name="lastname" placeholder="">
+        </div>
+    </div>  
+
+    <div class="row">
+        <div class="col-25">
+            <label for="country">Hotel Authorization:</label>
+        </div>
+        <div class="col-75">
+            <input type="text" id="lname" name="lastname" placeholder="">
+        </div>
+    </div>
+    <div class="row">
+        <input type="submit" value="Submit">
+    </div>
+
+</form>
+
+
+</div>
+
+<hr>
+
+<div id="section42" class="container-fluid">
+  <h2>Deluxe Room</h2>
+  <form action="">
+    <div class="row">
+        <div class="col-25">
+            <label for="address">Hotel Description: </label>
+        </div>
+        <div class="col-75">
+            <textarea id="address" name="address" rows="4" cols="50"></textarea>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-25">
+            <label for="address">Description List</label>
+        </div>
+        <div class="col-75">
+            <textarea id="address" name="address" rows="4" cols="50"></textarea>
+        </div>
+    </div>
+
+    <hr>
+
+    <h4 style="font-weight: bold;">Hotel Near the Airport</h4>
+    <br>
+    <div class="row">
+        <div class="col-25">
+            <label for="address">Address</label>
+        </div>
+        <div class="col-75">
+            <input type="text" id="fname" name="firstname" placeholder="Write The name">
+            <input type="text" id="address1" name="address1" placeholder="Address line 1.." style="display: inline-block; width: 45%; margin-right: 5px;">
+            <input type="text" id="address2" name="address2" placeholder="Address line 2.." style="display: inline-block; width: 45%;">
+        </div>
+    </div>
+
+    <hr>
+
+    <h4 style="font-weight: bold;">Hotel Near the Bus Stand</h4>
+    <br>
+    <div class="row">
+        <div class="col-25">
+            <label for="address">Address</label>
+        </div>
+        <div class="col-75">
+            <input type="text" id="fname" name="firstname" placeholder="Write The name">
+            <input type="text" id="address1" name="address1" placeholder="Address line 1.." style="display: inline-block; width: 45%; margin-right: 5px;">
+            <input type="text" id="address2" name="address2" placeholder="Address line 2.." style="display: inline-block; width: 45%;">
+        </div>
+    </div>
+
+    <hr>
+
+    <h4 style="font-weight: bold; ">Hotel Near the Railway Station</h4>
+    <br>
+    <div class="row">
+        <div class="col-25">
+            <label for="fname">Hotel Name</label>
+        </div>
+        <div class="col-75">
+            <input type="text" id="fname" name="firstname" placeholder="Write The name">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-25">
+            <label for="address">Address</label>
+        </div>
+        <div class="col-75">
+            <input type="text" id="fname" name="firstname" placeholder="Write The name">
+            <input type="text" id="address1" name="address1" placeholder="Address line 1.." style="display: inline-block; width: 45%; margin-right: 5px;">
+            <input type="text" id="address2" name="address2" placeholder="Address line 2.." style="display: inline-block; width: 45%;">
+        </div>
+    </div>
+    
+  </form>
+
+
+</div>
+
+</body>
+</html>
